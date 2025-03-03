@@ -1,6 +1,6 @@
 function [zcr_avg, sum_short_avg] = Charac_features( my2,fs )
 
-%   Detailed explanation goes here
+%   Detailed explanation goes here of the recording.
 myrecording = my2(:,1);%Taking only one sample of the test
 %plot(myrecording);
 length_samp=length(myrecording);%Taking the length of the recording
